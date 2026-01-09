@@ -15,5 +15,10 @@ y = [7.9, 6.7, 4.8, 5.1, 0.9, −0.5, −2.8, −4.7, −6.5, −8.3]
 To measure the linear relationship between variables x and y, Pearson’s correlation coefficient (r) was calculated using python code.
 The value r = −0.9914 indicates a very strong negative linear correlation between x and y.
 This means that as x increases, y decreases almost linearly. The points closely follow a downward-sloping straight line, which confirms the strength of the relationship.
+# Pearson Correlation Analysis
+
+This is the correlation analysis of the dataset extracted from the online graph.
+
+![Scatter Plot](correlation_plot.png)
 
 2. Spam email detection
