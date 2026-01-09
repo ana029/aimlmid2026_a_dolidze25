@@ -50,7 +50,10 @@ This is the correlation analysis of the dataset extracted from the online graph.
 ![Scatter Plot](correlation_plot.png)
 
 2. Spam email detection
+
+
    Given the data file at the following address "max.ge/aiml_midterm/a_dolidze25_51892_csv" with email features and its classes (spam or legitimate). The main goal of this task is to develop one Python console application for email classification within spam and legitimate classes. Your program should do the actions described below. You should provide the corresponding data in the report as described below:
+   
    1. Upload the provided data file to your repository and provide a link to the uploaded file in your report. (1 point).
       The dataset used in this project was provided by the course and uploaded to this repository.
 **Dataset link:**  
@@ -94,9 +97,9 @@ coefficients = pd.DataFrame({
 })
 coefficients
 ```
-Confusion Matrix:
- [[366  14]
- [ 20 350]]
+![Confusion Matrix](confusion_matrix.png)
+
+
    3. Within your application validate (find the Confusion Matrix and Accuracy) your model on the data that you have not used for training (1 point). Present the Confusion Matrix and Accuracy in the report and describe the code for finding them. (2 points).
 The trained model was evaluated on the test dataset using Accuracy and Confusion Matrix.
 ```python
@@ -130,4 +133,4 @@ The application can classify raw email text by extracting the same numerical fea
 ```python
 prediction = model.predict(features)
 ```
-![Confusion Matrix](images/confusion_matrix.png)
+![Class Distribution](class_distribution.png)
