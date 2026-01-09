@@ -26,7 +26,7 @@ This is the correlation analysis of the dataset extracted from the online graph.
    1. Upload the provided data file to your repository and provide a link to the uploaded file in your report. (1 point).
       The dataset used in this project was provided by the course and uploaded to this repository.
 **Dataset link:**  
-[data/a_dolidze25_51892.csv](data/a_dolidze25_51892.csv)
+[data/a_dolidze25_51892.csv](a_dolidze25_51892.csv)
 
 The dataset contains numerical features extracted from emails and a binary class label indicating whether the email is spam or legitimate.
 
