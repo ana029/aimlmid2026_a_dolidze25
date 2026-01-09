@@ -97,6 +97,11 @@ coefficients = pd.DataFrame({
 })
 coefficients
 ```
+0,words,0.008641
+1,links,0.876716
+2,capital_words,0.442592
+3,spam_word_count,0.749321
+
 
 
 
