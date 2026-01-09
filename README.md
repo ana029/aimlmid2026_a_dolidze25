@@ -97,7 +97,7 @@ coefficients = pd.DataFrame({
 })
 coefficients
 ```
-![Confusion Matrix](confusion_matrix.png)
+
 
 
    3. Within your application validate (find the Confusion Matrix and Accuracy) your model on the data that you have not used for training (1 point). Present the Confusion Matrix and Accuracy in the report and describe the code for finding them. (2 points).
@@ -112,10 +112,12 @@ cm, accuracy
 Results:
 Accuracy: 0.9546666666666667
 
+![Confusion Matrix](confusion_matrix.png)
+![Class Distribution](class_distribution.png)
    
    4. Your application should have ability to check email text i.e. parse it, extract the same features that you have in provided data file and evaluate it for spam using your model. (3 points).
 
-Feature extraction კოდი
+Feature extraction 
 
 ```python
 import re
@@ -133,4 +135,4 @@ The application can classify raw email text by extracting the same numerical fea
 ```python
 prediction = model.predict(features)
 ```
-![Class Distribution](class_distribution.png)
+
